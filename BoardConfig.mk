@@ -54,8 +54,6 @@ TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/prebuilt/zImage
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 
 # Encryption
-TARGET_CRYPTFS_HW_PATH := vendor/qcom/opensource/commonsys/cryptfs_hw
-TARGET_HW_DISK_ENCRYPTION := true
 PLATFORM_SECURITY_PATCH := 2029-10-01
 PLATFORM_VERSION := 16.1.0
 
@@ -88,7 +86,6 @@ BOARD_USES_QCOM_HARDWARE := true
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_EXTRA_LANGUAGES := true
 TW_THEME := portrait_hdpi
-TW_INCLUDE_CRYPTO := true
 TW_MAX_BRIGHTNESS := 255
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 TW_SCREEN_BLANK_ON_BOOT := true
